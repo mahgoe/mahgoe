@@ -4,5 +4,5 @@ Hier sind die aktuellen Wetterdaten:
 
 ## Wetter
 
-Temperatur: Noch nicht aktualisiert
-Beschreibung: Noch nicht aktualisiert
+Temperature: not updated yet :cry
+Description: not updated yet :cry
