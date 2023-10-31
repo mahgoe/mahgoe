@@ -23,8 +23,6 @@ async function getWeather() {
   )
     .then(r => r.json())
     .then(r => {
-      console.log("Wert von MY_VARIABLE:", process.env.OPEN_WEATHER_MAP_KEY);
-      console.log("API Response:", r);
       DATA.city_temperature = Math.round(r.main.temp);
       DATA.city_weather = r.weather[0].description;
       DATA.city_weather_icon = r.weather[0].icon;
