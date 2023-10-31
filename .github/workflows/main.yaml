@@ -24,7 +24,7 @@ jobs:
         run: npm install
 
       - name: run weather update script
-        run: node index.js
+        run: npm run update
         env:
           WEATHER_API_KEY: ${{ secrets.WEATHER_API_KEY}}
 
