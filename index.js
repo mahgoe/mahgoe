@@ -1,7 +1,7 @@
-require("dotenv").config();
-const Mustache = require("mustache");
-const fetch = require("node-fetch");
-const fs = require("fs");
+require('dotenv').config();
+const Mustache = require('mustache');
+const fetch = require('node-fetch');
+const fs = require('fs');
 
 const MUSTACHE_MAIN_DIR = "./main.mustache";
 
@@ -19,7 +19,7 @@ let DATA = {
 
 async function getWeather() {
   await fetch(
-    `https://api.openweathermap.org/data/2.5/weather?q=zuerich&appid=${process.env.OPEN_WEATHER_MAP_KEY}&units=metric`
+    $"https://api.openweathermap.org/data/2.5/weather?q=zuerich&appid={process.env.OPEN_WEATHER_MAP_KEY}&units=metric"
   )
     .then(r => r.json())
     .then(r => {
