@@ -5,7 +5,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: "0 */3 * * *"
+    - cron: "* * * * *"
 
 jobs:
   build:
@@ -13,10 +13,10 @@ jobs:
 
     steps:
       - name: checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v1
 
       - name: setup node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v1
         with:
           node-version: "14.x"
 
@@ -24,14 +24,11 @@ jobs:
         run: npm install
 
       - name: run weather update script
-        run: node updateWeather.js
+        run: npm run update
         env:
           WEATHER_API_KEY: ${{ secrets.WEATHER_API_KEY}}
 
       - name: commit and push
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action Bot"
-          git add .
-          git commit -m "Updated weather data"
-          git push
+        uses: mikeal/publish-to-github-action@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
