@@ -27,4 +27,4 @@ Currently, the weather is: <b> 1°C, <i>fog</i></b></p>
 </p>
 
 ------------
-<p align="center">The weather data of Zurich is refreshed every 3 hours.</b></br>Last refresh: Thursday, December 7 at 7:04 AM GMT+1<br/></p>
+<p align="center">The weather data of Zurich is refreshed every 3 hours.</b></br>Last refresh: Thursday, December 7 at 10:03 AM GMT+1<br/></p>
