@@ -27,4 +27,4 @@ Currently, the weather is: <b> -3°C, <i>clear sky</i></b></p>
 </p>
 
 ------------
-<p align="center">The weather data of Zurich is refreshed every 3 hours.</b></br>Last refresh: Monday, January 22 at 1:13 AM GMT+1<br/></p>
+<p align="center">The weather data of Zurich is refreshed every 3 hours.</b></br>Last refresh: Monday, January 22 at 4:03 AM GMT+1<br/></p>
