@@ -27,4 +27,4 @@ Currently, the weather is: <b> 10°C, <i>broken clouds</i></b></p>
 </p>
 
 ------------
-<p align="center">The weather data of Zurich is refreshed every 3 hours.</b></br>Last refresh: Saturday, March 23 at 1:04 PM GMT+1<br/></p>
+<p align="center">The weather data of Zurich is refreshed every 3 hours.</b></br>Last refresh: Saturday, March 23 at 4:04 PM GMT+1<br/></p>
