@@ -21,10 +21,10 @@
 ---
 
 <h3>Willkommen in Zürich <img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/Wappen_Z%C3%BCrich_matt.svg" alt="Wappen von Zürich" width="15px"/>!</h3>
-Currently, the weather is: <b> 7°C, <i>overcast clouds</i></b></p>
+Currently, the weather is: <b> 6°C, <i>overcast clouds</i></b></p>
 <h3>Where to find me</h3>
 <p><a href="https://github.com/mahgoe" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /><a href="https://www.linkedin.com/in/mahgoe/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> <a href="https://medium.com/@th.guibert" target="_blank"></a>
 </p>
 
 ------------
-<p align="center">The weather data of Zurich is refreshed every 3 hours.</b></br>Last refresh: Tuesday, November 12 at 1:06 PM GMT+1<br/></p>
+<p align="center">The weather data of Zurich is refreshed every 3 hours.</b></br>Last refresh: Tuesday, November 12 at 4:04 PM GMT+1<br/></p>
